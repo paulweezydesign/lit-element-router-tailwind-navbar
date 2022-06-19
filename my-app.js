@@ -86,20 +86,20 @@ class App extends LitElement {
             id="example-collapse-navbar">
               <ul class="flex flex-col lg:flex-row list-none lg:ml-auto uppercase text-white">
                 <li class="flex items-center">
-                    <app-link class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold text-gray-800 lg:text-white" 
-                        href="/">Home</app-link>
+                    <app-link  
+                        href="/"><a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold ">Home</a></app-link>
                 </li>
                 <li class="flex items-center">
-                 <app-link class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold text-gray-800 lg:text-white"
-                    href="about">About</app-link>
+                 <app-link
+                    href="about"><a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold ">About</a></app-link>
                 </li>
                 <li class="flex items-center">
-                  <app-link class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold text-gray-800 lg:text-white"
-                href="kittens">Kittens</app-link>
+                  <app-link 
+                href="kittens"><a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold ">>Kittens</a></app-link>
                 </li>
                 <li class="flex items-center">
-                  <app-link class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold text-gray-800 lg:text-white"
-            href="contact">Contact</app-link>
+                  <app-link 
+            href="contact"><a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold ">Contact</a></app-link>
                 </li>
               </ul>
             </div>

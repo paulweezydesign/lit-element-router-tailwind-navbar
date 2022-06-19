@@ -95,7 +95,7 @@ class App extends LitElement {
                 </li>
                 <li class="flex items-center">
                   <app-link 
-                href="kittens"><a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold ">>Kittens</a></app-link>
+                href="kittens"><a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold ">Kittens</a></app-link>
                 </li>
                 <li class="flex items-center">
                   <app-link 

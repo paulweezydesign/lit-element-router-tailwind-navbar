@@ -20,8 +20,9 @@ export class KittensPage extends LitElement {
   // Render the UI as a function of component state
   render() {
     return html`
+    <div class="grid grid-cols-1 items-center h-[100vh] w-[100vw]">
     <div class="">
-      <h1 class="text-7xl text-center font-black">Kittens Page</h1>
+      <h1 class="text-7xl text-white text-center font-black">Kittens Page</h1>
     </div>`;
   }
   createRenderRoot() {

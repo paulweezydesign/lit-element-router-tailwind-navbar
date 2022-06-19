@@ -13,6 +13,9 @@ import { router } from "lit-element-router";
 import "./app-link";
 import "./app-main";
 import "./home-page.js";
+import "./about-page.js";
+import "./kittens-page.js";
+import "./contact-page.js";
 @router
 class App extends LitElement {
   static get properties() {
@@ -77,9 +80,15 @@ class App extends LitElement {
         <div route="home">
           <home-page></home-page>
         </div>
-        <div route="about">About</div>
-        <div route="kittens">Kittens</div>
-        <div route="contact">Contact</div>
+        <div route="about">
+          <about-page></about-page>
+        </div>
+        <div route="kittens">
+          <kittens-page></kittens-page>
+        </div>
+        <div route="contact">
+          <contact-page></contact-page>
+        </div>
         
         <h1 route="not-found">Not Found</h1>
       </app-main>

@@ -21,8 +21,9 @@ export class HomePage extends LitElement {
   render() {
     return html`
     <div class="grid grid-cols-1 items-center h-[100vh] w-[100vw]">
-      <div class="">
-       <h1 class="text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white text-center font-black">Come adopt my cute ass kittens</h1>
+      <div class="flex flex-col justify-center p-2">
+       <h1 class="m-2 text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white font-black">Come adopt my cute <br>ass kittens</h1>
+       <p class="text-lg text-white/90 tracking-wide font-light">They deserve a good home with plenty of love.</p>
       </div>
     </div>`;
   }

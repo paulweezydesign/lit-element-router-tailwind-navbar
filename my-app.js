@@ -85,9 +85,9 @@ class App extends LitElement {
             <div class="lg:flex flex-grow items-center  bg-white lg:bg-transparent lg:shadow-none hidden"
             id="example-collapse-navbar">
           
-              <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+              <ul class="flex flex-col lg:flex-row list-none lg:ml-auto uppercase text-white">
                 <li class="flex items-center">
-                    <app-link class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    <app-link class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold 
                         href="/">Home</app-link>
                 </li>
                 <li class="flex items-center">
@@ -107,10 +107,8 @@ class App extends LitElement {
           </div>
       </nav>
       
-      <app-link href="/about">About</app-link>
-      <app-link href="kittens">Kittens</app-link>
-      <app-link href="contact">Contact</app-link>
-    </nav>
+    
+    
       <app-main active-route=${this.route}>
         <div route="home">
           <home-page></home-page>

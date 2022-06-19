@@ -20,8 +20,10 @@ export class HomePage extends LitElement {
   // Render the UI as a function of component state
   render() {
     return html`
-    <div class="">
-      <h1 class="text-7xl text-center font-black">Home Page</h1>
+    <div class="grid grid-cols-1 items-center h-[100vh] w-[100vw]">
+      <div class="">
+       <h1 class="text-7xl text-white text-center font-black">Home Page</h1>
+      </div>
     </div>`;
   }
   createRenderRoot() {

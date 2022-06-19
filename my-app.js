@@ -82,8 +82,31 @@ class App extends LitElement {
                     <i class="text-white fas fa-bars"></i>
                 </button>
             </div>
-
-      <app-link href="/">Home</app-link>
+            <div class="lg:flex flex-grow items-center  bg-white lg:bg-transparent lg:shadow-none hidden"
+            id="example-collapse-navbar">
+          
+              <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+                <li class="flex items-center">
+                    <app-link class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                        href="/">Home</app-link>
+                </li>
+                <li class="flex items-center">
+                  <app-link class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    href="about">About</app-link>
+                </li>
+                <li class="flex items-center">
+                  <app-link class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="kittens">Kittens</app-link>
+                </li>
+                <li class="flex items-center">
+                  <app-link class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+            href="contact">Contact</app-link>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+      
       <app-link href="/about">About</app-link>
       <app-link href="kittens">Kittens</app-link>
       <app-link href="contact">Contact</app-link>

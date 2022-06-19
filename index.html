@@ -6,6 +6,14 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.2/cdn.js" integrity="sha512-JCRiGqeZmFnnSl3E68K2QpL8Pwvp4PKAqekg41WWUfjqCnKJEv1DvZJdi76q/XFt6VzZ3V4bCE51NkDQ+dOJKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="./turbo_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
 	<script src="./turbo_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"></script>
+	<script>
+	  function toggleNavbar(collapseID) {
+    var _a, _b;
+    (_a = document.getElementById(collapseID)) == null ? void 0 : _a.classList.toggle("hidden");
+    (_b = document.getElementById(collapseID)) == null ? void 0 : _b.classList.toggle("block");
+  }
+  window.toggleNavbar = toggleNavbar;
+	</script>
 </head>
 
 <body class="bg-[#222]">

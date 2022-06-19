@@ -22,7 +22,7 @@ export class HomePage extends LitElement {
     return html`
     <div class="grid grid-cols-1 items-center h-[100vh] w-[100vw]">
       <div class="">
-       <h1 class="text-7xl text-white text-center font-black">Home Page</h1>
+       <h1 class="text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white text-center font-black">Come adopt my cute ass kittens</h1>
       </div>
     </div>`;
   }

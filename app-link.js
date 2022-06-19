@@ -12,6 +12,9 @@ export class Link extends LitElement {
     return css`
       a {
         margin: 5px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
       }
     `;
   }
@@ -30,6 +33,7 @@ export class Link extends LitElement {
     event.preventDefault();
     this.navigate(this.href);
   }
+ 
 }
 
 customElements.define("app-link", Link);
